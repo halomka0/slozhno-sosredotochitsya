@@ -1,0 +1,27 @@
+.page.theme_light {
+  --title-color: rgb(255, 194, 230);
+  --font-color: rgb(53, 52, 48);
+  --accent-color: rgb(255, 141, 203);
+  --white-color: rgb(53, 52, 48);
+  --bg-img: url(../images/cover-image-light.png);
+  --accent-color-title: rgb(53, 52, 48);
+  --button-color: rgb(53, 52, 48);
+  --accent-decor: rgb(53, 52, 48);
+  --accent-decor-for-button: rgb(53, 52, 48, 0.4);
+  --rec: white;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --title-color: rgb(255, 194, 230);
+    --font-color: rgb(53, 52, 48);
+    --accent-color: rgb(255, 141, 203);
+    --white-color: rgb(53, 52, 48);
+    --bg-img: url(../images/cover-image-light.png);
+    --accent-color-title: rgb(53, 52, 48);
+    --button-color: rgb(53, 52, 48);
+    --accent-decor: rgb(53, 52, 48);
+    --accent-decor-for-button: rgb(53, 52, 48, 0.4);
+    --rec: white;
+  }
+}
