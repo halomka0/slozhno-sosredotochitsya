@@ -74,6 +74,7 @@
   padding-inline-end: 20px;
   align-self: center;
   margin-block-end: 20px;
+  min-height: 71px;
 }
 
 .header__motivation-text {
@@ -83,8 +84,7 @@
   background-color: var(--accent-color);
   color: var(--font-color);
   font-weight: 700;
-  height: 71px;
-  width: 491px;
+  width: 491px; 
 }
 
 .rec-layout {
@@ -97,6 +97,7 @@
   line-height: 25px;
   inset-inline-end: 49px;
   inset-block-start: 20px;
+  display: var(--rec-block);
 }
 
 .decorated-up {
@@ -110,6 +111,7 @@
 }
 
 .decorated {
+  display: var(--rec-block);
   position: absolute;
   width: 9px;
   height: 9px;

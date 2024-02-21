@@ -9,6 +9,7 @@
   --accent-decor: rgb(53, 52, 48);
   --accent-decor-for-button: rgb(53, 52, 48, 0.4);
   --rec: white;
+  --rec-block: none;
 }
 
 @media (prefers-color-scheme: light) {
@@ -23,5 +24,6 @@
     --accent-decor: rgb(53, 52, 48);
     --accent-decor-for-button: rgb(53, 52, 48, 0.4);
     --rec: white;
+    --rec-block: none;
   }
 }
